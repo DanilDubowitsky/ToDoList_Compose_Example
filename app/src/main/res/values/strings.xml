@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="todo_days_tasks_template">Выполненные задачи: %1$s / всего задач: %2$s</string>
+    <string name="new_task_title_label">Новая задача</string>
+    <string name="tasks_empty_label">У вас пока нет созданных задач</string>
+    <string name="task_point_hint">Текст пункта задачи</string>
+    <string name="task_title_hint">Задача</string>
+    <string name="tasks_title">Задачи</string>
+    <string name="incomplete">Невыполненные</string>
+    <string name="completed">Выполненные</string>
+    <string name="complete_and_incomplete_task_points_template">%1$s выполненные, %2$s невыполненные</string>
+</resources>
