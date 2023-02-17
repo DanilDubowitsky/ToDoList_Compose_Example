@@ -4,8 +4,9 @@ import com.example.todolist.domain.model.sql.DayTaskSQL
 import com.example.todolist.domain.model.sql.TaskPointSQL
 import com.example.todolist.domain.repository.IDayTaskRepository
 import java.util.UUID
+import javax.inject.Inject
 
-class CreateTask(
+class CreateTask @Inject constructor(
     private val repository: IDayTaskRepository
 ) {
 

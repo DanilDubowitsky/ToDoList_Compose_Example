@@ -16,6 +16,7 @@ fun List<TaskPointSQL>.toEntities(dayTaskId: Long) = this.map { point ->
 
 fun TaskPointEntity.toModel() = TaskPoint(
     id,
+    taskId,
     body,
     completed
 )
